@@ -1,0 +1,175 @@
+{
+ "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "薄靖骞 - 个人简历",
+  "name": "薄靖骞",
+  "repo": "https://github.com/muscledreamer/resume",
+  "job_description": ["Python开发工程师", "软件工程师"],
+  "contact": {
+    "phone": "13820925855",
+    "email": "jqian_bo@163.com",
+    "wechat": {
+      "id": "bojingqian1313",
+      "qrcode": "static/bojingqian.svg"
+    },
+    "sinaweibo": {
+      "id": "pip_install_Muscle",
+      "url": "http://weibo.com/u/6075396883"
+    },
+    "github": {
+      "id": "muscledreamer"
+    },
+    "blog": {
+      "url": "https://muscledreamer.github.io/"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/muscledreamer/resume"
+
+  }, {
+    "type": "pdf",
+    "url": "dist/bojingqian.pdf"
+
+  }],
+  "education": [{
+    "type": "undergraduate",
+    "name": "天津工业大学",
+    "major": "软件工程",
+    "start": "2013",
+    "end": "2017",
+    "honor": [
+      "2013 - 2014 **优秀干部**",
+      "2014 - 2015 **学生会外联部优秀部长**",
+      "2015        **学院实践类奖学金**",
+      "2016        **学院实践类奖学金**"
+    ]
+  }
+  ],
+  "experience": [ {
+    "type": "internship",
+    "techtype": "Python研发(实习)",
+    "place": "中科软科技股份有限公司",
+    "start": "2016-10",
+    "end": "至今",
+    "name": "Python研发",
+    "description": [
+      "参与全析平台搜索引擎建设，使用`Scrapy`框架等类库配合网络抓包，模拟请求进行爬虫工作及数据汇总分析。爬取Twitter,FaceBook等社交平台以及各类新闻网信息，直播平台弹幕等。使用`Flask`等Web框架提供接口进行数据返回。使用相关类库对视频，图片等进行处理。",
+      "参与微信监控平台及與情分析平台项目的开发与实施,使用`Hostapd`+`DHCP`配置CentOS进行软AP搭建，配合安卓运用各种抓包工具对Http，Https进行分析解析及微信开发。",
+      "阅读优秀源码及Python中高级编程书籍，并深入学习Python各类框架，了解人工智能以及学习网络相关知识。"
+    ],
+    "stack": ["Python","Flask","Scrapy"]
+  }, {
+    "type": "internship",
+    "techtype": "Python研发(实习)",
+    "place": "融合技术通信（天津）有限公司",
+    "start": "2016-06",
+    "end": "2016-10",
+    "name": "Python研发",
+    "description": [
+      "Ubuntu系统下，利用`Flask`框架进行web开发，并进行多次更迭。利用前端技术，进行页面设计，页面功能实现。",
+      "完成每周相关新增功能和需求。",
+      "`Mysql`数据库搭建及存储过程设计,使用`Nginx`+`Uwsgi`部署服务器等。"
+    ],
+    "stack": ["Python","Linux","Flask","Nginx"]
+  }, {
+    "type": "internship",
+    "techtype": "微信开发+市场推广",
+    "place": "天津奋斗者科技有限公司",
+    "start": "2015-7",
+    "end": "2015-8",
+    "name": "微信开发+市场推广",
+    "description": [
+      "参与研发部微信平台建立，设计并参与制作微信平台网站，实现用户在线购买订餐等功能。",
+      "与多名商户进行沟通，帮助公司与一家商户完成签约。"
+    ],
+    "stack": ["市场部","微信开发"]
+  },
+  {
+    "type": "project",
+    "techtype": "Python & Flask",
+    "project_type": "personal",
+    "name": "My Blog",
+    "source": "https://github.com/muscledreamer/blog",
+    "description": [
+      "一款基于Flask框架的Web小项目",
+      "使用`Bootstrap`,`Ajax`,`Jquary`等前端框架和资源完成前端设计及开发",
+      "使用`Nginx`，`uwsgi`完成服务端搭建",
+      "使用`Sqlalchemy Raw SQL`完成数据库链接，编写存储过程进行优化",
+      "使用装饰器等完成权限升级，优化代码，使项目尽可能的简洁",
+      "项目虽小，却五脏俱全。作为第一个Python项目，虽然不尽完善，但努力做到了`Pythonic`的代码风格以及高并发处理，数据库优化"
+    ],
+    "stack": ["Python", "Nginx"]
+  },
+  {
+    "type": "project",
+    "techtype": "Linux",
+    "project_type": "personal",
+    "name": "Linux常用脚本",
+    "source": "https://github.com/muscledreamer",
+    "description": [
+      "由于经常使用Ubuntu系统，所以习惯编写一些工作及生活中常用到的脚本以及`Linux`的相关配置文件"
+    ],
+    "stack": ["Linux"]
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`Python`",
+      "description": [
+        "掌握Python语法知识，能编写常用脚本进行文件处理、测试等",
+        "拥有开发`Web项目经验`。熟悉Flask框架，配合前端技术进行项目开发，使用Nginx+Uwsgi进行项目部署等 ",
+        "熟悉基础爬虫知识，可以运用Scrapy框架等类库结合抓包分析等完成`爬虫`相关工作",
+        "追求Python高级编程，阅读相关书籍，掌握装饰器，生成器，`函数式编程`相关方法",
+        "良好的编码习惯，读过《Effective Python》 懂得如何写出高效优雅,更加`Pythonic`的代码"
+        ]
+    },{
+        "summary": "`SQL`",
+        "description": [
+          "掌握SQL语言，`存储过程`等数据库优化方案",
+          "了解简单数据库安全方面知识",
+          "使用过MySQL及HBase数据库，了解PostgreSQL等其他数据库的不同优势"
+        ]
+      },
+    {
+      "summary": "`Linux`",
+      "description": [
+        "熟悉linux操作系统并运用其进行开发",
+        "熟悉各类安装包及`编译`安装方法",
+        "熟悉操作命令，进行服务器部署及相关配置"
+      ]
+    }, 
+    {
+      "summary": "`前端`",
+      "description": [
+        "可阅读并修改CSS，Js等",
+        "使用过`Bootstrap`,`Jquery`,`Ajax`等相关框架及插件",
+        "结合Flask进行Web设计及开发"
+      ]
+    }]
+  },
+  {
+    "type": "backend",
+    "item": [{
+      "summary": "`Git`",
+      "description": [
+        "熟练使用 git 基本命令，了解团队开发相关 git 使用流程",
+        "熟悉Github,通过Github阅读更多优秀代码及问题相关讨论"
+      ]
+    }, 
+    {
+      "summary": "`硬件`",
+      "description": [
+        "熟悉硬件知识,安装硬件及各类操作系统",
+        "简单了解各类操作系统的网络相关配置,机房操作等"
+      ]
+    },
+    {
+      "summary": "`其他`",
+      "description": [
+        "习惯使用`MarkDown`编写程序员文档",
+        "了解Java编程语言，接触过相应的框架,有web项目经验"
+      ]
+    }]
+  }]
+}

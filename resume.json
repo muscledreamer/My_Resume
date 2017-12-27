@@ -12,10 +12,6 @@
       "id": "bojingqian1313",
       "qrcode": "static/bojingqian.svg"
     },
-    "sinaweibo": {
-      "id": "pip_install_Muscle",
-      "url": "http://weibo.com/u/6075396883"
-    },
     "github": {
       "id": "muscledreamer"
     },
@@ -48,103 +44,114 @@
   ],
   "experience": [ {
     "type": "internship",
-    "techtype": "Python研发(实习)",
+    "techtype": "Python工程师",
     "place": "中科软科技股份有限公司",
-    "start": "2016-10",
+    "start": "2016-11",
     "end": "至今",
-    "name": "Python研发",
+    "name": "Python工程师",
     "description": [
-      "参与全析平台搜索引擎建设，使用`Scrapy`框架等类库配合网络抓包，模拟请求进行爬虫工作及数据汇总分析。爬取Twitter,FaceBook等社交平台以及各类新闻网信息，直播平台弹幕等。使用`Flask`等Web框架提供接口进行数据返回。使用相关类库对视频，图片等进行处理。",
-      "参与微信监控平台及與情分析平台项目的开发与实施,使用`Hostapd`+`DHCP`配置CentOS进行软AP搭建，配合安卓运用各种抓包工具对Http，Https进行分析解析及微信开发。",
-      "阅读优秀源码及Python中高级编程书籍，并深入学习Python各类框架，了解人工智能以及学习网络相关知识。"
+      "参与全析平台搜索引擎建设,使用爬虫相关框架等类库配合网络抓包,模拟请求进行爬虫工作及数据汇总分析。爬取Twitter,FaceBook等社交平台以及各类新闻网信息,直播平台弹幕等。提供Web服务进行数据支撑。使用相关类库对视频,图片等进行数据处理",
+      "参与微信监控平台及與情分析平台项目的开发与实施,使用`Hostapd`+`DHCP`配置CentOS进行软AP搭建,配合安卓运用各种抓包工具对Http,Https进行分析解析及微信开发",
+      "参与地方网信办舆情监测项目建设,对重点网站信息进行`数据采集`,`汇总`,`清洗`等,并对相关业务提供`数据支撑`。主要负责设计`采集架构`,调整组件平衡,编码实现,部署测试,维护及优化数据,提供相关数据支撑接口等",
+      "`业绩`: 根据业务目标,修改完善相关框架源码。根据对各服务器监测,调节各组件及服务器平衡,使数据爬取速度提升多个量级。面向业务需求,对数据结构,数据整合提出架构思路,参与部分架构设计,利用基础数据对多业务提供支撑。提高数据的复用性以及对业务支撑的准确性"
     ],
     "stack": ["Python","Flask","Scrapy"]
   }, {
     "type": "internship",
-    "techtype": "Python研发(实习)",
+    "techtype": "Python研发 (实习)",
     "place": "融合技术通信（天津）有限公司",
     "start": "2016-06",
     "end": "2016-10",
-    "name": "Python研发",
+    "name": "Python研发 (实习)",
     "description": [
-      "Ubuntu系统下，利用`Flask`框架进行web开发，并进行多次更迭。利用前端技术，进行页面设计，页面功能实现。",
-      "完成每周相关新增功能和需求。",
-      "`Mysql`数据库搭建及存储过程设计,使用`Nginx`+`Uwsgi`部署服务器等。"
+      "使用Ubuntu系统,基于`Flask`框架进行Web开发,进行多次更迭。参与页面设计,页面功能实现",
+      "完成每周相关新增功能和需求",
+      "`Mysql`数据库搭建及存储过程设计,使用`Nginx`+`Uwsgi`部署服务等"
     ],
     "stack": ["Python","Linux","Flask","Nginx"]
   }, {
     "type": "internship",
-    "techtype": "微信开发+市场推广",
+    "techtype": "微信开发+市场推广 (实习)",
     "place": "天津奋斗者科技有限公司",
     "start": "2015-7",
     "end": "2015-8",
-    "name": "微信开发+市场推广",
+    "name": "微信开发+市场推广 (实习)",
     "description": [
-      "参与研发部微信平台建立，设计并参与制作微信平台网站，实现用户在线购买订餐等功能。",
-      "与多名商户进行沟通，帮助公司与一家商户完成签约。"
+      "参与研发部微信平台建立,设计并参与制作微信平台网站,实现用户在线购买订餐等功能",
+      "与多名商户进行沟通,帮助公司与一家商户完成签约"
     ],
     "stack": ["市场部","微信开发"]
   },
   {
     "type": "project",
-    "techtype": "Python & Flask",
+    "techtype": "Python & Scrapy",
     "project_type": "personal",
-    "name": "My Blog",
-    "source": "https://github.com/muscledreamer/blog",
+    "name": "全网信息分布式采集及数据支撑",
+    "source": "https://github.com/muscledreamer/Website-Spiderman",
     "description": [
-      "一款基于Flask框架的Web小项目",
-      "使用`Bootstrap`,`Ajax`,`Jquary`等前端框架和资源完成前端设计及开发",
-      "使用`Nginx`，`uwsgi`完成服务端搭建",
-      "使用`Sqlalchemy Raw SQL`完成数据库链接，编写存储过程进行优化",
-      "使用装饰器等完成权限升级，优化代码，使项目尽可能的简洁",
-      "项目虽小，却五脏俱全。作为第一个Python项目，虽然不尽完善，但努力做到了`Pythonic`的代码风格以及高并发处理，数据库优化"
+      "对全网新闻,境内外网站及论坛博客信息进行分布式爬虫采集，并提供相关数据支撑服务",
+      "负责整体架构设计,初期基本完成项目需求。后期完善优化架构及编码，维护各组件平衡，优化爬取速度，使数据支撑服务更加健壮",
+      "具体实现,使用`Scrapy`框架(修改部分源代码),Requests等类库,配合Redis队列,布隆去重等内存数据库进行采集,基于HBase集群及FastDFS文件存储搭配进行数据存放,搭建Web服务提供数据支撑接口"
     ],
     "stack": ["Python", "Nginx"]
   },
   {
     "type": "project",
+    "techtype": "Python & Flask",
+    "project_type": "personal",
+    "name": "基于Flask 框架 健身房在线平台",
+    "source": "https://github.com/muscledreamer/blog",
+    "description": [
+      "一款基于`Flask`框架的Web项目, 毕业设计",
+      "基于Python Flask框架,搭配`SQLALchemy`数据库,使用jinja2模版及js,ajax异步处理等数据渲染方式实现健身房网站在线购物,注册会员,后台管理,后台权限设置及数据汇总等功能,并使用`Nginx`+`Uwsgi`对服务进行负载均衡设计",
+      "参与优秀毕设评选。毕设期间,由于需要兼顾公司项目,使用git进行多地分支开发,最终完成整体项目。虽然编码存在冗余也未充分优化,但整体过程对Web开发及相关技术框架有了更深入的了解"
+    ],
+    "stack": ["Flask", "Nginx"]
+  },
+  {
+    "type": "project",
     "techtype": "Linux",
     "project_type": "personal",
-    "name": "Linux常用脚本",
-    "source": "https://github.com/muscledreamer",
+    "name": "检索关键字工具exe",
+    "source": "",
     "description": [
-      "由于经常使用Ubuntu系统，所以习惯编写一些工作及生活中常用到的脚本以及`Linux`的相关配置文件"
+      "实现通过分词检索技术,对pdf，doc，docx文件提取敏感关键词,代替人工筛查可疑文件"
     ],
-    "stack": ["Linux"]
+    "stack": ["分词"]
   }],
   "skills": [{
     "type": "frontend",
     "item": [{
       "summary": "`Python`",
       "description": [
-        "掌握Python语法知识，能编写常用脚本进行文件处理、测试等",
-        "拥有开发`Web项目经验`。熟悉Flask框架，配合前端技术进行项目开发，使用Nginx+Uwsgi进行项目部署等 ",
-        "熟悉基础爬虫知识，可以运用Scrapy框架等类库结合抓包分析等完成`爬虫`相关工作",
-        "追求Python高级编程，阅读相关书籍，掌握装饰器，生成器，`函数式编程`相关方法",
-        "良好的编码习惯，读过《Effective Python》 懂得如何写出高效优雅,更加`Pythonic`的代码"
+        "掌握Python基础语法知识,了解Python`高级编程`相关用法以及`函数式编程`思想",
+        "基于不同需求和使用环境,使用进程线程协程等进行`编码调优`,提高编码质量",
+        "具备`Web项目`经验,熟悉服务端(Nginx,Uwsgi等)相关部署,可搭建具备一定负载能力的网络服务",
+        "具备`数据采集项目`(Python爬虫)经验,熟悉并优化爬虫相关框架源码, 具备一定优化以及创造轮子的能力",
+        "阅读分析Scrapy,Werkzeug等优秀框架源码",
+        "遵循`PEP8`以及`Pythonic`代码编写风格"
         ]
     },{
-        "summary": "`SQL`",
+        "summary": "`数据库`",
         "description": [
-          "掌握SQL语言，`存储过程`等数据库优化方案",
-          "了解简单数据库安全方面知识",
-          "使用过MySQL及HBase数据库，了解PostgreSQL等其他数据库的不同优势"
+          "了解关系型数据库与非关系型数据库相关知识及优势,具备数据库设计及优化的能力",
+          "掌握`SQL语法`,了解并使用`SQL编程`等对数据库操作进行优化",
+          "了解部分数据库安全方面知识"
         ]
       },
     {
-      "summary": "`Linux`",
+      "summary": "`操作系统`",
       "description": [
-        "熟悉linux操作系统并运用其进行开发",
-        "熟悉各类安装包及`编译`安装方法",
-        "熟悉操作命令，进行服务器部署及相关配置"
+        "熟悉`Linux`,`Mac`,`Windows`操作系统",
+        "熟悉Linux各类安装包以及`编译`安装方法,具备服务器部署,监测,安全排查等能力",
+        "具备一定Shell编程能力,编写脚本进行服务器相关操作"
       ]
     }, 
     {
-      "summary": "`前端`",
+      "summary": "`前端开发`",
       "description": [
-        "可阅读并修改CSS，Js等",
-        "使用过`Bootstrap`,`Jquery`,`Ajax`等相关框架及插件",
-        "结合Flask进行Web设计及开发"
+        "具备一定修改Css，Js的能力, 可进行简单Web设计",
+        "具备使用`Bootstrap`,`Jquery`,`Ajax`等相关框架及插件的经验"
       ]
     }]
   },
@@ -153,8 +160,8 @@
     "item": [{
       "summary": "`Git`",
       "description": [
-        "熟练使用 git 基本命令，了解团队开发相关 git 使用流程",
-        "熟悉Github,通过Github阅读更多优秀代码及问题相关讨论"
+        "熟练使用 git 基本命令,了解团队开发相关 git 使用流程",
+        "熟悉Github,通过Github阅读优秀代码及问题相关讨论"
       ]
     }, 
     {
@@ -168,7 +175,8 @@
       "summary": "`其他`",
       "description": [
         "习惯使用`MarkDown`编写程序员文档",
-        "了解Java编程语言，接触过相应的框架,有web项目经验"
+        "了解Java编程语言,接触过相应的框架,具备web项目经验",
+        "了解go语言,了解其并发优势,具备初级编码能力"
       ]
     }]
   }]
