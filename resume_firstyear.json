@@ -85,7 +85,7 @@
   {
     "type": "project",
     "techtype": "Python & Scrapy",
-    "project_type": "business",
+    "project_type": "personal",
     "name": "全网信息分布式采集及数据支撑",
     "source": "https://github.com/muscledreamer/Website-Spiderman",
     "description": [
