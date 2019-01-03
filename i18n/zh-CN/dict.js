@@ -3,8 +3,8 @@ module.exports = {
         "internship": ""
     },
     skill_type: {
-        "frontend": "Python研发",
-        "backend": "其他技术栈",
+        "frontend": "开发",
+        "backend": "产品",
         "miscellaneous": "其他"
     },
     education_type: {
@@ -36,6 +36,7 @@ module.exports = {
         demo: "Demo"
     },
     project_type: {
-        "personal": "个人项目"
+        "personal": "个人项目",
+        "business": "企业项目"
     }
 };
